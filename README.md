@@ -96,6 +96,18 @@ A modern, secure cloud storage application for managing files and folders with a
    NEXT_PUBLIC_IMAGEKIT_PUBLIC_KEY="your-imagekit-public-key"
    NEXT_PUBLIC_IMAGEKIT_URL_ENDPOINT="your-imagekit-url-endpoint"
    IMAGEKIT_PRIVATE_KEY="your-imagekit-private-key"
+   
+   # Clerk URLs
+   NEXT_PUBLIC_CLERK_SIGN_IN_URL= http://localhost:3000/sign-in
+   NEXT_PUBLIC_CLERK_SIGN_UP_URL= http://localhost:3000/sign-up
+   NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL= http://localhost:3000/dashboard
+   NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL= http://localhost:3000/dashboard
+   NEXT_PUBLIC_CLERK_CAPTCHA_TYPE=invisible
+
+   # Fallback URLs
+   NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL= http://localhost:3000/sign-in
+   NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL= http://localhost:3000/sign-up
+
    ```
 
 4. **Database Setup**
